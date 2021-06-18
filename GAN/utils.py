@@ -2,8 +2,6 @@ import torch
 
 # Saving and loading models in pytorch
 
-#make a checkpoint and save
-
 def save_model(model,optimizer,epoch,path):
 
     checkpoint = {
